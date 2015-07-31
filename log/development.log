@@ -980,3 +980,16 @@ Processing by PagesController#home as HTML
   Rendered pages/home.html.erb within layouts/application (0.9ms)
   Rendered layouts/_header.html.erb (0.3ms)
 Completed 200 OK in 98ms (Views: 97.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for ::1 at 2015-07-31 10:59:35 -0400
+Processing by PagesController#home as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = ?  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 151ms (Views: 150.7ms | ActiveRecord: 0.1ms)
+  [1m[36mPin Load (1.4ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" ASC LIMIT 1[0m
+  [1m[36mPin Load (0.1ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" ASC LIMIT 1[0m
+  [1m[35mPin Load (0.4ms)[0m  SELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" ASC LIMIT 1
+  [1m[36mPin Load (0.2ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" ASC LIMIT 1[0m
+  [1m[36mPin Load (0.3ms)[0m  [1mSELECT  "pins".* FROM "pins"  ORDER BY "pins"."id" ASC LIMIT 1[0m
