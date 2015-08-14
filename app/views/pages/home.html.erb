@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en"> <!-- specifies a language code. useful for browsers and screen readers -->
+<head>
+		<meta charset="utf-8"> <!-- for character encoding -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- for server and user agent behavior -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- setting this up for responsive behavior on your site. --> 
+    <!-- set meta tags above everything -->
+
+   <!--  css stylesheets(add custom below bootstrap to override)--> 
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/main.css">
+	<title>KShare TEST</title>
+</head>
+<body>
+	<!-- all images belong to handy book and is only being used for promotional use -->
+<!-- 	header section -->
+		<header>
+				<nav class="navbar navbar-inverse navbar-fixed-top white-background">
+					<div class="container">
+						<div class="header">
+								<a class="navbar-brand">KShare TEST</a>
+							<ul class="nav navbar-nav navbar-right hidden-xs">
+							<li><%= link_to "Sign in", new_user_session_path %></li>
+							<li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li>
+							<li><a href="">Login</a></li>
+							<li><a href="">Help</a></li>
+							</ul>
+
+						</div>
+				</div>
+			</nav>
+		</header>
+
+	<!-- 	hero section -->
+
+		<section class="jumbotron hero">
+			<div class="container hero-container">
+				<h1 class="hero-text">Welcome to KShare!</h1>
+				<p>We connect you with our knowledge of experts</p>
+				<p>Learn a new language, how to cook, or anything elsel!</p>
+				<a class="btn btn-primary btn-lg btn-block" role="button" href="http://www.sesamestreet.org/muppets/elmo" target="_blank">Sign up to receive more information</a>
+			</div>
+		</section>
+
+<!-- three column about -->
+		<section class="container main-section hidden-xs">
+			<div class="row pt-50">
+
+				<h2 class="title2s">We connect you with our epxerts</h2>
+				<div class="col-md-4">
+					<h3>We have breadth + depth</h3>
+					<p>Learning a new langauge?  We have native speakers.  Practicing an acadmeic subject?  We have Phds. </p>
+				</div>
+
+				<div class="col-md-4">
+					<h3>How it works</h3>
+					<p>You earn "redbucks" by teaching others from your own skills.  You then spend your "redbucks" to learn new skislls!</p>
+				</div>
+
+				<div class="col-md-4">
+					<h3>Try it now!</h3>
+					<p>Joining is completely free, and start with a free tutoring lesson in the subject of your choice! </p>
+				</div>
+
+			</div>
+		</section>
+
+
+		<!-- section with background image -->
+
+		<section class="home-shine">
+			<h1 class="home-shine-text text-center pt-50"></h1>
+		</section>
+
+		<section>
+			
+				</div>
+
+	
+			
+
+	<!--  javascript tags -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
